@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "MainLogin";
+}
+
+
+<style>
+    .box {
+        border:0px solid red;
+        height:50px;
+        
+    }
+    .area {
+        height:70px;
+        
+        padding:10px;
+
+    }
+</style>
+<h2>Admin Login</h2>
+
+
+<div class="container">
+    
+    <form method="post" action="login">
+
+        <div class="form-control area">
+            <input type="text" class="col-md-12 box" name="AdminId" id="AdminId" placeholder="Enter User Name " required="" />
+        </div>
+
+        <div class="form-control area">
+            <input type="text" class="col-md-12 box" name="AdminPin" id="AdminPin" placeholder="Enter User Password " required="" />
+        </div>
+
+        <div class="form-control area">
+            <input type="submit" value="Login " class="col-md-12 btn btn-primary" /> 
+        </div>
+
+    </form>
+
+
+</div>
